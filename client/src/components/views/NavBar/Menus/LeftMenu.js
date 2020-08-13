@@ -1,17 +1,14 @@
 import React from 'react';
 
-// import { Menu } from 'antd';
+import { Menu } from 'antd';
 
 function LeftMenu(props) {
   return (
-    <div>
-      
-    </div>
-    // <Menu mode={props.mode}>
-    //   <Menu.Item key="mail">
-    //     <a href="/">Home</a>
-    //   </Menu.Item>
-    // </Menu>
+    <Menu mode={props.mode}>
+      <Menu.Item key="mail">
+        <a href="/chat">Chat</a>
+      </Menu.Item>
+    </Menu>
   )
 }
 

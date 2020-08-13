@@ -20,7 +20,7 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 5, width: '100%' }}>
       <div className="menu__logo">
-        <a href="/" className="logo__name">ChatYO</a>
+        <a href="/" className="logo__name">PogChat</a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
@@ -37,7 +37,7 @@ function NavBar() {
           <AlignRightOutlined />
         </Button>
         <Drawer
-          title="Focusdoro"
+          title="PogChat"
           placement="right"
           className="menu_drawer"
           closable={false}

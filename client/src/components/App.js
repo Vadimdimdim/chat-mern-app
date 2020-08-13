@@ -7,6 +7,7 @@ import Auth from "../hoc/auth";
 import HomePage from "./views/HomePage/HomePage.js";
 import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
+import Chat from "./views/Chat/Chat.js"
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer";
 
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/" component={Auth(HomePage, null)} />
           <Route exact path="/login" component={Auth(LoginPage, false)} />
           <Route exact path="/register" component={Auth(RegisterPage, false)} />
+          <Route exact path="/chat" component={Auth(Chat, null)} />
         </Switch>
       </div>
       <Footer />
