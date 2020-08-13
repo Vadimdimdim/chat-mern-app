@@ -1,4 +1,4 @@
-# MERN TEMPLATE
+# PogChat
 Install server and client dependencies
 
 `npm install`
